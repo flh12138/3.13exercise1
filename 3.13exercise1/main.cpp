@@ -35,6 +35,7 @@ int main() {
 		rFrame.copyTo(detectMat);
 	    cv:: inRange(hsvMat, Scalar(i_minH, i_mins, i_minV), Scalar(i_maxH, i_maxs, i_maxV), detectMat);
 
+
 		imshow("whie: in the range", detectMat);
 		imshow("frame", rFrame);
 		waitKey(38);
