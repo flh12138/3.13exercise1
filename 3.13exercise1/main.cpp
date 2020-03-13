@@ -12,9 +12,11 @@ int main() {
 	//·ôÉ«
 	double i_minH = 0;
 	double i_maxH = 20;
+
 	//0-255 
 	double i_mins = 43;
 	double i_maxs = 255;
+
 	//8-255
 	double i_minV = 55;
 	double i_maxV = 255;
